@@ -2,7 +2,7 @@ def square_array(array)
   new_array=[]
   counter=0 
   while counter<array.length() 
-    array[counter]**2
+    new_array.push([counter])
     counter+=1
   end
 end
